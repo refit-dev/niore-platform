@@ -1,7 +1,7 @@
 const Stripe = require('stripe');
 require('dotenv').config({ path: '.env.local' });
 
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY, { apiVersion: '2026-05-27.dahlia' });
+const stripe = new Stripe(process.env.STRIPE_SECRET_KEY, { apiVersion: '2026-09-30.endive' });
 
 async function check() {
   const products = await stripe.products.list({ limit: 30 });

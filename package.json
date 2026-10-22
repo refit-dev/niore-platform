@@ -46,7 +46,7 @@
     "sonner": "^1.5.0",
     "ssh2": "^1.17.0",
     "streamdown": "^1.6.7",
-    "stripe": "^22.0.2",
+    "stripe": "^23.0.0",
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
